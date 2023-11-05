@@ -1,0 +1,74 @@
+.header-banner {
+  padding-left: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hbanner-button {
+  color: #fff;
+  padding: 0 1%;
+  text-decoration: underline;
+  font-size: 2.3vh;
+}
+.Hbanner {
+  padding: 2.4vh 13vh;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.langugage-popup {
+  position: relative;
+}
+
+.languages-selector-cont {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+}
+
+.languages-selector-option {
+  font-weight: 400;
+  list-style-type: none;
+  margin-left: 2vh;
+  cursor: pointer;
+}
+
+.language-selected-cont {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.language-selected {
+  font-weight: 500;
+  font-size: 2.3vh;
+  margin-right: 1.5vh;
+}
+.language-icon {
+  width: 1.6vh;
+  height: 1.6vh;
+  display: flex;
+}
+
+.languages-selector-option-cont {
+  display: flex;
+  align-items: center;
+  margin: 3vh 3vh;
+}
+
+.languages-selector-option-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4vh;
+  height: 4vh;
+  padding: 2vh;
+}

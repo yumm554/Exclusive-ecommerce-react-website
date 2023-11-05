@@ -1,0 +1,48 @@
+.lform-cont {
+  display: grid;
+  grid-gap: 2vh;
+  position: relative;
+}
+
+.lform {
+  display: grid;
+  grid-gap: 4vh;
+}
+
+.lform-input {
+  border: 0px solid;
+  padding: 1.2vh 0;
+  border-bottom: 2px solid #e3e3e3;
+  background-color: transparent;
+}
+.lform-input::placeholder {
+  font-size: 2.2vh;
+}
+
+.lform-button {
+  padding: 2.7vh 4vh;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 2.3vh;
+}
+.lsubmit-button {
+  background-color: #db4444;
+  color: #fff;
+  width: 35%;
+  margin-top: 2vh;
+}
+
+.forgot-password-cont {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  float: right;
+}
+
+.forgot-password-button {
+  color: #bb4444;
+  padding: 2.7vh 0;
+  font-size: 2.3vh;
+  font-weight: 500;
+}

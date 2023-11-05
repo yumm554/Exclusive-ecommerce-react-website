@@ -1,0 +1,132 @@
+.e-commerce-footer {
+  width: 100%;
+  grid-auto-rows: 1fr 0fr;
+  justify-items: center;
+  align-content: center;
+  grid-gap: 8vh;
+  background-color: black;
+  color: #fff;
+  padding: 10vh 13vh 2vh 13vh;
+}
+
+.e-commerce-footer-cont {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 27vh 0.25fr auto auto auto;
+  justify-content: space-between;
+}
+
+.footer-links-items {
+  margin-top: 0;
+}
+
+.subscription-form-wrapper {
+  display: grid;
+}
+
+.e-com-subscription-form {
+  border: 1px solid #fff;
+  padding: 0.5vh;
+}
+
+.email-input {
+  width: 100%;
+  padding: 1.4vh;
+}
+.email-input::placeholder {
+  font-size: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fnavigate {
+  color: #fff;
+}
+
+.footer-logo {
+  font-size: 3.2vh;
+}
+
+.footer-sec-head {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 2.8vh;
+}
+
+.footer-sec-subhead {
+  font-size: 2.8vh;
+}
+
+.footer-links-items {
+  padding: 1vh 0;
+  font-size: 2.2vh;
+}
+
+.download-links-cont {
+  display: grid;
+  grid-gap: 1.5vh;
+}
+.download-links {
+  display: grid;
+  grid-gap: 1.5vh;
+  grid-template-columns: 0fr auto;
+}
+.footer-download-qr-code {
+  display: flex;
+  width: 11vh;
+  height: 11vh;
+}
+
+.footer-download-ways-svg,
+.googleplay-cont,
+.appstore-cont {
+  display: flex;
+}
+
+.download-links-ways {
+  display: grid;
+  grid-gap: 0.5vh;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  grid-gap: 3.5vh;
+}
+
+.download-social-sec {
+  display: grid;
+  grid-gap: 3vh;
+}
+
+.social-icons {
+  width: 3vh;
+  height: 3vh;
+}
+
+.copyright-cont {
+  display: grid;
+  grid-template-columns: 0fr auto;
+  grid-gap: 1.5vh;
+  align-items: center;
+}
+.copyright-icon-svg {
+  width: 2.3vh;
+  height: 2.3vh;
+  display: flex;
+}
+
+.copyright {
+  font-size: 2.2vh;
+  color: #3b3a3a;
+}
+
+.send-email-icon {
+  width: 2.5vh;
+  height: 2.5vh;
+}

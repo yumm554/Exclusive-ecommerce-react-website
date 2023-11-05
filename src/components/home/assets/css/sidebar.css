@@ -1,0 +1,36 @@
+.e-com-sidebar {
+  padding: 6vh 2vh 0 0;
+  border-right: 1px solid #cfcfcf;
+}
+
+.e-com-categories {
+  margin: 0;
+  padding: 0;
+}
+
+.e-com-categories-item:first-child {
+  margin: 0;
+}
+
+.e-com-categories-item {
+  margin: 1.5vh 0;
+  list-style-type: none;
+}
+
+.subcategories-item-parent {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-icon.down {
+  margin: 0.9vh;
+  width: 1.5vh;
+  height: 1.5vh;
+}
+
+.sidebar-icon.right {
+  width: 3vh;
+  height: 3vh;
+}

@@ -1,0 +1,8 @@
+.product-rating-cont {
+  display: flex;
+}
+
+.star-icon {
+  width: 3vh;
+  height: 3vh;
+}

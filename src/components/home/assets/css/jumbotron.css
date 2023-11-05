@@ -1,0 +1,5 @@
+.e-com-jumbotron {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 20% 80%;
+}

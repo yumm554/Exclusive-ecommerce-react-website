@@ -1,0 +1,28 @@
+.e-com-services {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
+}
+
+.service {
+  display: grid;
+  grid-gap: 1vh;
+  justify-items: center;
+}
+
+.services-svg-icon-wrapper {
+  background-color: #000;
+  border-radius: 900px;
+  padding: 1vh;
+}
+.services-svg-icon {
+  background-color: #e3e3e3;
+  border-radius: 900px;
+  padding: 1.5vh;
+}
+
+.services-icon {
+  width: 6vh;
+  height: 6vh;
+  display: flex;
+}

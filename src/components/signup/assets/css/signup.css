@@ -1,0 +1,48 @@
+.signup-cont {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+  margin: 8vh 0 2vh 0;
+}
+
+.signup-image {
+  border-radius: 4px;
+}
+
+.signup {
+  display: grid;
+  align-content: center;
+  grid-gap: 6vh;
+  padding: 0 15vh;
+}
+
+.signup-mains {
+  display: grid;
+  grid-gap: 1.5vh;
+}
+
+.signup-main-para {
+  margin: 0;
+  font-size: 2.3vh;
+  font-weight: 600;
+}
+.signup-main-heading {
+  margin: 0;
+  font-size: 5vh;
+  font-weight: 500;
+}
+
+.already-account-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #848484;
+}
+
+.already-account-button {
+  border-bottom: 1px solid #848484;
+  color: #848484;
+  padding: 0.3vh 0;
+  margin-left: 2vh;
+  font-size: 2.3vh;
+}

@@ -1,0 +1,28 @@
+.template2.flash-sale-timer {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  grid-gap: 3.5vh;
+  align-items: center;
+}
+.template2 .time-cont {
+  width: 10vh;
+  height: 10vh;
+  background-color: #fff;
+  border-radius: 500px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.template2 .time {
+  font-size: 3vh;
+  grid-row: 1;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.template2 .time-head {
+  font-size: 2vh;
+  font-weight: 500;
+  margin: 0;
+}

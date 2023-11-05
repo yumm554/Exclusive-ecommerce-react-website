@@ -1,0 +1,17 @@
+.arrows {
+  display: grid;
+  grid-gap: 1vh;
+  grid-template-columns: repeat(2, auto);
+}
+
+.arrow {
+  background-color: #e3e3e3;
+  padding: 1.2vh;
+  border-radius: 500px;
+}
+
+.arrow-svg {
+  width: 3.5vh;
+  height: 3.5vh;
+  display: flex;
+}

@@ -1,0 +1,36 @@
+.sform-cont {
+  display: grid;
+  grid-gap: 2vh;
+}
+
+.sform {
+  display: grid;
+  grid-gap: 4vh;
+}
+
+.sform-input {
+  border: 0px solid;
+  padding: 1.2vh 0;
+  border-bottom: 2px solid #e3e3e3;
+  background-color: transparent;
+}
+.sform-input::placeholder {
+  font-size: 2.2vh;
+}
+
+.sform-button {
+  padding: 2.7vh 4vh;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 2.3vh;
+}
+.ssubmit-button {
+  background-color: #db4444;
+  color: #fff;
+  margin-top: 2vh;
+}
+
+.google-button {
+  border: 2px solid #e3e3e3;
+  width: -webkit-fill-available;
+}
