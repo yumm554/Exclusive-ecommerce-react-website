@@ -6,3 +6,10 @@
   width: 3vh;
   height: 3vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .star-icon {
+    width: 10px;
+    height: 10px;
+  }
+}

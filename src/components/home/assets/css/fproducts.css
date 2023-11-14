@@ -78,3 +78,15 @@
   width: fit-content;
   border-bottom: 1px solid #fff;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .fproducts-products {
+    height: 50vh;
+    grid-gap: 2%;
+    height: 35vh;
+  }
+  .fproduct-details {
+    padding: 8%;
+    grid-gap: 1vw;
+  }
+}

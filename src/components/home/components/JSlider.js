@@ -80,6 +80,7 @@ const JSlider = () => {
                   <div className="jslider-banner-info">
                     <div className="jslider-banner-brand">
                       <img
+                        className="jslider-banner-brand-img"
                         src={elem.toCategory.logo}
                         alt="banner-product-logo"
                       />
@@ -93,6 +94,7 @@ const JSlider = () => {
                   </div>
                   <div className="jslider-banner-image">
                     <img
+                      className="jslider-banner-image-img"
                       src={elem.toCategory.image}
                       alt="banner-productImage"
                     />

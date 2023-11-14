@@ -18,3 +18,17 @@
   color: #db4444;
   font-size: 2.5vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .red-small-section {
+    height: 6.5vw;
+    grid-template-columns: 3vw auto;
+    grid-gap: 10px;
+  }
+  .red-small-section-content {
+    font-size: 2.5vw;
+  }
+  .red-part {
+    border-radius: 3px;
+  }
+}

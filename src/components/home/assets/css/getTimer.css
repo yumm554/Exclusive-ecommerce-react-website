@@ -26,3 +26,15 @@
   height: 2vh;
   margin-top: 3vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .time {
+    font-size: 5vw;
+  }
+  .time-head {
+    font-size: 2vw;
+  }
+  .flash-sale-timer {
+    grid-gap: 1vw;
+  }
+}

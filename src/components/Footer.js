@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <div className="home-sections e-commerce-footer">
       <div className="e-commerce-footer-cont">
-        <div className="footer-sec">
+        <div className="footer-sec newsletter-sec">
           <div className="e-com-logo footer-logo">Exclusive</div>
           <div className="subscription-form-cont">
             <h2 className="footer-sec-subhead">Subscribe</h2>
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-sec">
+        <div className="footer-sec info-sec">
           <h2 className="footer-sec-head">Support</h2>
           <ul className="footer-links support-links">
             <li className="footer-links-items">
@@ -46,7 +46,7 @@ const Footer = () => {
             <li className="footer-links-items">+88015-88888-9999</li>
           </ul>
         </div>
-        <div className="footer-sec">
+        <div className="footer-sec account-links-sec">
           <h2 className="footer-sec-head">Account</h2>
           <ul className="footer-links account-links">
             <Link className="fnavigate">
@@ -66,7 +66,7 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div className="footer-sec">
+        <div className="footer-sec quick-links-sec">
           <h2 className="footer-sec-head">Quick Link</h2>
           <ul className="footer-links quick-links">
             <Link className="fnavigate">

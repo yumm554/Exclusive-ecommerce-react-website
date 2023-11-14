@@ -5,7 +5,9 @@ import '../assets/css/jumbotron.css';
 const Jumbotron = () => {
   return (
     <div className="e-com-jumbotron">
-      <Sidebar />
+      <div className="sidebar">
+        <Sidebar />
+      </div>
       <JSlider />
     </div>
   );

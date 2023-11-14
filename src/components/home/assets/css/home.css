@@ -38,3 +38,26 @@
 .small-para {
   font-size: 2.1vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .medium-para {
+    font-size: 2.3vw;
+  }
+  .e-com-home {
+    padding: 0 5vw;
+  }
+  .home-sections {
+    margin-top: 50px;
+  }
+  .medium-heading {
+    font-size: 3vw;
+  }
+  .section-main-heading {
+    font-size: 5vw;
+  }
+  .red-button {
+    padding: 2.3vw 15px;
+    font-size: 2vw;
+    border-radius: 3px;
+  }
+}

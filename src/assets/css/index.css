@@ -41,3 +41,9 @@ code {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .e-com-button {
+    font-size: 2vw;
+  }
+}

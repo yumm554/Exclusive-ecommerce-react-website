@@ -130,3 +130,58 @@
   width: 2.5vh;
   height: 2.5vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .e-commerce-footer {
+    padding: 18vw 5% 7vw 5%;
+    justify-items: start;
+    grid-gap: 50px !important;
+  }
+  .e-commerce-footer li,
+  .e-commerce-footer p,
+  .e-com-input::placeholder {
+    font-size: 3vw;
+  }
+
+  .e-commerce-footer-cont {
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 50px;
+    justify-content: start;
+  }
+  .e-com-form {
+    width: 80%;
+  }
+  .newsletter-sec {
+    grid-column: 1 / span 2;
+  }
+  .quick-links-sec,
+  .account-links-sec {
+    grid-row: 3;
+  }
+
+  .info-sec {
+    grid-row: 2;
+  }
+  .download-social-sec {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+  }
+  .download-links {
+    grid-template-columns: 0fr 42%;
+  }
+  .footer-download-qr-code {
+    width: 22vw;
+    height: 22vw;
+  }
+  .email-input {
+    padding: 2vw;
+  }
+  .footer-sec-subhead,
+  .footer-sec-head {
+    font-size: 4vw;
+  }
+  .social-icons {
+    width: 5vw;
+    height: 5vw;
+  }
+}

@@ -34,3 +34,12 @@
   width: 3vh;
   height: 3vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .e-com-sidebar {
+    padding: 0;
+  }
+  .sidebar-icon path {
+    stroke: #fff;
+  }
+}

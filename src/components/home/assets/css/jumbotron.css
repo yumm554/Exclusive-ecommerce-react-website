@@ -3,3 +3,12 @@
   overflow: hidden;
   grid-template-columns: 20% 80%;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .e-com-jumbotron {
+    grid-template-columns: auto;
+  }
+  .sidebar {
+    display: none;
+  }
+}

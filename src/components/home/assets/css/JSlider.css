@@ -71,3 +71,45 @@
   width: 100%;
   justify-content: center;
 }
+
+.jslider-banner-brand {
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .jslider-banner {
+    padding: 0 0 0 2%;
+  }
+  .jslider-banner-info-name {
+    font-size: 5vw;
+  }
+
+  .jslider-banner-brand p {
+    font-size: 2vw;
+  }
+
+  .e-com-button.hbanner-button {
+    display: none;
+  }
+  .jslider-cont {
+    margin: 6vh 0 0 0;
+  }
+  .jslider-banner-info {
+    padding: 5vw 0;
+  }
+  .jslider-banner-image-img {
+    width: 50vw;
+  }
+  .jslider-dot {
+    width: 6px;
+    height: 6px;
+    margin: 3px;
+  }
+  .jslider-banner-brand-img {
+    width: 4vw;
+  }
+  .jslider-icon {
+    width: 3vw;
+    height: 3vw;
+  }
+}

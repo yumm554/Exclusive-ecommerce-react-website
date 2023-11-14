@@ -48,3 +48,56 @@
 .search {
   padding: 1vh 2vh;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .e-commerce-header-main {
+    justify-items: end;
+    padding: 1vh 5vw;
+  }
+  .e-com-logo.header-logo {
+    font-size: 6vw;
+  }
+  .e-com-navbar {
+    display: none;
+  }
+  .e-com-search {
+    display: none;
+  }
+  .wishlist svg {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .cart svg {
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+  .hamburger svg {
+    width: 9vw;
+    height: 9vw;
+  }
+  .mobile-menu-dropdown {
+    position: absolute;
+    left: 0;
+    z-index: 8;
+    width: 100vw;
+    padding: 0 5vw;
+    height: 100vh;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    overflow-y: scroll;
+  }
+  .mdropdown.e-com-navbar-list {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .mdropdown.e-com-navbar-list li {
+    color: #fff;
+    font-weight: 400;
+    font-size: 3vw;
+    margin: 2.5vw 0;
+  }
+}

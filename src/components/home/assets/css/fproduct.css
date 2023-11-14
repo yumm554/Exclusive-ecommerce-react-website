@@ -48,3 +48,29 @@
   padding: 3vh 6vh;
   border: 0px solid;
 }
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .fproduct {
+    padding: 7% 5%;
+    grid-template-columns: 50% 50%;
+    height: max-content;
+  }
+
+  .feaproduct-heading {
+    font-size: 5vw;
+  }
+  .feaproduct-categories {
+    font-size: 2vw;
+  }
+  .feaproduct-button {
+    font-size: 2vw;
+    padding: 2.3vw 15px;
+    border-radius: 3px;
+  }
+  .feaproduct-img {
+    width: 100%;
+  }
+  .feaproduct-details {
+    grid-gap: 10px;
+  }
+}
