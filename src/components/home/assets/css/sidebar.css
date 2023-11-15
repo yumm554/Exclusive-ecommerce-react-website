@@ -42,4 +42,21 @@
   .sidebar-icon path {
     stroke: #fff;
   }
+  .sidebar-icon.right {
+    width: 3vw;
+    height: 3vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .e-com-sidebar {
+    padding: 0;
+  }
+  .sidebar-icon path {
+    stroke: #fff;
+  }
+  .sidebar-icon.right {
+    width: 3vw;
+    height: 3vw;
+  }
 }

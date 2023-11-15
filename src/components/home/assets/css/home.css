@@ -61,3 +61,26 @@
     border-radius: 3px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .medium-para {
+    font-size: 1.8vw;
+  }
+  .e-com-home {
+    padding: 0 3vw;
+  }
+  .home-sections {
+    margin-top: 100px;
+  }
+  .medium-heading {
+    font-size: 2.5vw;
+  }
+  .section-main-heading {
+    font-size: 4vw;
+  }
+  .red-button {
+    padding: 2vw 15px;
+    font-size: 1.5vw;
+    border-radius: 3px;
+  }
+}

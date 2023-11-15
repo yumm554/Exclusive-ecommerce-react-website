@@ -173,15 +173,81 @@
     width: 22vw;
     height: 22vw;
   }
-  .email-input {
-    padding: 2vw;
-  }
+
   .footer-sec-subhead,
   .footer-sec-head {
     font-size: 4vw;
   }
   .social-icons {
-    width: 5vw;
-    height: 5vw;
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+  .copyright-icon-svg {
+    width: 3vw;
+    height: 3vw;
+  }
+  .send-email-icon {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .e-commerce-footer {
+    padding: 10vw 3vw 5vw 3vw;
+    justify-items: start;
+    grid-gap: 15px !important;
+  }
+  .e-commerce-footer li,
+  .e-commerce-footer p,
+  .e-com-input::placeholder {
+    font-size: 2vw;
+  }
+  .footer-links-items {
+    padding: 0.7vw 0;
+  }
+
+  .e-commerce-footer-cont {
+    grid-template-columns: 0.55fr 0fr auto auto;
+    grid-row-gap: 70px;
+    justify-content: space-between;
+  }
+
+  .newsletter-sec {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+  .social-links {
+    grid-gap: 3vw;
+  }
+
+  .download-links {
+    grid-template-columns: 0fr 40%;
+  }
+  .footer-download-qr-code {
+    width: 9vw;
+    height: 9vw;
+  }
+  .email-input {
+    padding: 2vw;
+  }
+  .footer-sec-subhead,
+  .footer-sec-head {
+    font-size: 2.5vw;
+  }
+  .footer-logo {
+    font-size: 3vw;
+  }
+  .social-icons {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .copyright-icon-svg {
+    width: 2vw;
+    height: 2vw;
+  }
+  .send-email-icon {
+    width: 2.3vw;
+    height: 2.3vw;
   }
 }

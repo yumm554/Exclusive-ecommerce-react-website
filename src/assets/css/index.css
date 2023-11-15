@@ -46,4 +46,16 @@ a {
   .e-com-button {
     font-size: 2vw;
   }
+  .e-com-input {
+    padding: 2vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .e-com-button {
+    font-size: 1.8vw;
+  }
+  .e-com-input {
+    padding: 1vw;
+  }
 }

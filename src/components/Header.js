@@ -9,7 +9,7 @@ import { useMediaQuery } from 'react-responsive';
 import { useState } from 'react';
 
 const Header = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 992px)' });
   const [mDropdown, setMDropdown] = useState(false);
 
   return (

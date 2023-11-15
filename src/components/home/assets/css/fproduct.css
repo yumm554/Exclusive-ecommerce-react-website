@@ -74,3 +74,29 @@
     grid-gap: 10px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .fproduct {
+    padding: 7% 5%;
+    grid-template-columns: 50% 50%;
+    height: max-content;
+  }
+
+  .feaproduct-heading {
+    font-size: 4vw;
+  }
+  .feaproduct-categories {
+    font-size: 1.5vw;
+  }
+  .feaproduct-button {
+    font-size: 1.4vw;
+    padding: 1.7vw 15px;
+    border-radius: 3px;
+  }
+  .feaproduct-img {
+    width: 100%;
+  }
+  .feaproduct-details {
+    grid-gap: 15px;
+  }
+}

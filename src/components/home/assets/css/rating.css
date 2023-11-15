@@ -13,3 +13,9 @@
     height: 10px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .star-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

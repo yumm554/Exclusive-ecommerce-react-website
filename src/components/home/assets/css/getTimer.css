@@ -38,3 +38,15 @@
     grid-gap: 1vw;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .time {
+    font-size: 4vw;
+  }
+  .time-head {
+    font-size: 1.5vw;
+  }
+  .flash-sale-timer {
+    grid-gap: 0.5vw;
+  }
+}

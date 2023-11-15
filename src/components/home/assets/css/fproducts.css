@@ -81,12 +81,22 @@
 
 @media screen and (max-width: 767px) and (min-height: 657px) {
   .fproducts-products {
-    height: 50vh;
     grid-gap: 2%;
     height: 35vh;
   }
   .fproduct-details {
-    padding: 8%;
+    padding: 3vw 2vw;
     grid-gap: 1vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .fproducts-products {
+    grid-gap: 2%;
+    height: 60vh;
+  }
+  .fproduct-details {
+    padding: 3vw 2vw;
+    grid-gap: 0.5vw;
   }
 }

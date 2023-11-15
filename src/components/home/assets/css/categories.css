@@ -51,3 +51,16 @@
     height: 15vw;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .categories-list-para {
+    font-size: 2.5vw;
+    padding: 2vw;
+  }
+  .categories-list {
+    padding: 3% 0 10% 0;
+  }
+  .categories-list-items {
+    height: 15vw;
+  }
+}
