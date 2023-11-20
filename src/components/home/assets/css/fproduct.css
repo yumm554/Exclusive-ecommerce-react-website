@@ -1,21 +1,21 @@
 .fproduct {
-  height: 80vh;
+  height: 650px;
   background-color: #000;
   display: grid;
   grid-template-columns: 40% 60%;
-  padding: 0 7vh;
+  padding: 0 45px;
 }
 
 .feaproduct-details {
   display: grid;
   align-items: center;
   align-content: center;
-  grid-gap: 5vh;
+  grid-gap: 32px;
 }
 
 .feaproduct-heading {
   margin: 0;
-  font-size: 7vh;
+  font-size: 45px;
   color: #fff;
   font-weight: 600;
 }
@@ -42,10 +42,10 @@
   width: fit-content;
   color: #fff;
   font-weight: 500;
-  font-size: 2.3vh;
+  font-size: 15px;
   background-color: #00ff66;
   border-radius: 5px;
-  padding: 3vh 6vh;
+  padding: 20px 39px;
   border: 0px solid;
 }
 

@@ -1,19 +1,19 @@
 .e-com-home {
-  padding: 0 13vh;
+  padding: 0 85px;
   overflow: hidden;
 }
 
 .home-sections {
-  margin-top: 16vh;
+  margin-top: 100px;
   display: grid;
-  grid-gap: 2vh;
+  grid-gap: 13px;
   grid-auto-columns: 100%;
 }
 
 .section-main-heading {
   margin: 0;
   width: max-content;
-  font-size: 5vh;
+  font-size: 32.5px;
 }
 
 .red-button {
@@ -21,22 +21,22 @@
   border-radius: 5px;
   color: #fff;
   font-weight: 600;
-  padding: 3vh 8vh;
+  padding: 20px 53px;
   border: 0px solid;
 }
 
 .medium-heading {
-  font-size: 2.5vh;
+  font-size: 16px;
   margin: 0;
 }
 
 .medium-para {
-  font-size: 2.3vh;
+  font-size: 15px;
   margin: 0;
 }
 
 .small-para {
-  font-size: 2.1vh;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 767px) and (min-height: 657px) {

@@ -2,15 +2,14 @@
   border-bottom: 1px solid #e3e3e3;
 }
 .sproducts-product-cont-wrapper {
-  margin: 4vh 0 7vh 0;
+  margin: 26px 0 45vh 0;
 }
 
 .fproducts-products {
   width: 100%;
-  height: 100vh;
+  height: 650px;
   display: grid;
-
-  grid-gap: 4vh;
+  grid-gap: 26px;
 }
 
 .fproducts-product {
@@ -39,11 +38,11 @@
 .fproduct-details {
   position: absolute;
   bottom: 0;
-  padding: 4vh;
+  padding: 26px;
   color: #fff;
   display: grid;
   width: 100%;
-  grid-gap: 1vh;
+  grid-gap: 6px;
   text-shadow: 1px 1px 5px #000;
 }
 
@@ -66,13 +65,13 @@
   height: 100%;
   background-color: #e3e3e3;
   object-fit: cover;
-  object-position: center;
+  object-position: top center;
 }
 
 .fproduct-button {
   padding: 0;
   color: #fff;
-  padding-bottom: 0.3vh;
+  padding-bottom: 2px;
 }
 .fproduct-button-cont {
   width: fit-content;

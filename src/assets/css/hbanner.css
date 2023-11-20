@@ -1,5 +1,5 @@
 .header-banner {
-  padding-left: 4vw;
+  padding-left: 25px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -10,10 +10,9 @@
   color: #fff;
   padding: 0 1%;
   text-decoration: underline;
-  font-size: 2.3vh;
 }
 .Hbanner {
-  padding: 2.4vh 13vh;
+  padding: 15px 85px;
   background-color: black;
   color: #fff;
   width: 100%;
@@ -38,7 +37,7 @@
 .languages-selector-option {
   font-weight: 400;
   list-style-type: none;
-  margin-left: 2vh;
+  margin-left: 15px;
   cursor: pointer;
 }
 
@@ -49,28 +48,28 @@
 }
 .language-selected {
   font-weight: 500;
-  font-size: 2.3vh;
-  margin-right: 1.5vh;
+  font-size: 15px;
+  margin-right: 10px;
 }
 .language-icon {
-  width: 1.6vh;
-  height: 1.6vh;
+  width: 10px;
+  height: 10px;
   display: flex;
 }
 
 .languages-selector-option-cont {
   display: flex;
   align-items: center;
-  margin: 3vh 3vh;
+  margin: 20px 20px;
 }
 
 .languages-selector-option-code {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 4vh;
-  height: 4vh;
-  padding: 2vh;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 767px) and (min-height: 657px) {

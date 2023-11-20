@@ -1,27 +1,37 @@
 .jslider-cont {
-  margin: 6vh 0 0 6vh;
+  margin: 39px 0 0 39px;
   overflow: hidden;
 }
 
 .jslider-main {
+  height: 100%;
   position: relative;
 }
 
 .jslider {
+  height: 100%;
   transition: all 0.4s;
   display: flex;
 }
 
 .jslider-banner {
-  height: fit-content;
   width: 100%;
-  background-color: #000;
+  height: 100%;
+  min-height: 18vw;
   color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.jslider-banner-wrapper {
+  width: 100%;
   display: grid;
+  background-color: #000;
   align-items: center;
   align-content: center;
-  padding: 0 0 0 8vh;
+  padding: 0 0 0 52px;
   grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  max-width: 1100px;
 }
 
 .jslider-banner-brand {
@@ -31,7 +41,7 @@
 }
 
 .jslider-banner-info-name {
-  font-size: 5vh;
+  font-size: 32.5px;
 }
 .JSlider-shopnow-button {
   display: flex;
@@ -46,8 +56,8 @@
 }
 
 .jslider-icon {
-  width: 3vh;
-  height: 3vh;
+  width: 19px;
+  height: 19px;
   padding-left: 5%;
 }
 
@@ -66,7 +76,7 @@
 }
 .jslider-dots-con {
   position: absolute;
-  bottom: 1vh;
+  bottom: 6px;
   display: flex;
   width: 100%;
   justify-content: center;

@@ -17,12 +17,23 @@ const GetTimer = ({ template }) => {
       const now = new Date().getTime();
 
       const distance = countDownDate - now;
-      setDays(Math.floor(distance / (1000 * 60 * 60 * 24)));
-      setHours(
-        Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      setDays(
+        (Math.floor(distance / (1000 * 60 * 60 * 24)) + '').padStart(2, '0')
       );
-      setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
-      setSeconds(Math.floor((distance % (1000 * 60)) / 1000));
+      setHours(
+        (
+          Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) + ''
+        ).padStart(2, '0')
+      );
+      setMinutes(
+        (Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)) + '').padStart(
+          2,
+          '0'
+        )
+      );
+      setSeconds(
+        (Math.floor((distance % (1000 * 60)) / 1000) + '').padStart(2, '0')
+      );
     }, 1000);
   }, []);
 

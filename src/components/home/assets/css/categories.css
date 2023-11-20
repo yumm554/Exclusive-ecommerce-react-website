@@ -11,7 +11,7 @@
 
 .categories-list {
   transition: all 0.7s;
-  padding: 7vh 0;
+  padding: 46px 0;
   border-bottom: 1px solid #e3e3e3;
   display: grid;
   grid-gap: 2%;
@@ -19,7 +19,7 @@
 .categories-list-items {
   border: 1px solid rgb(194, 194, 194);
   border-radius: 6px;
-  height: 18vh;
+  height: 9vw;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -35,7 +35,7 @@
 .categories-list-para {
   margin: 0;
   text-align: center;
-  padding: 2vh;
+  padding: 13px;
   overflow-wrap: anywhere;
 }
 

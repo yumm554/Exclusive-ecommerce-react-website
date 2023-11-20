@@ -77,27 +77,29 @@ const JSlider = () => {
             PBannerData.map((elem) => {
               return (
                 <div className="jslider-banner">
-                  <div className="jslider-banner-info">
-                    <div className="jslider-banner-brand">
-                      <img
-                        className="jslider-banner-brand-img"
-                        src={elem.toCategory.logo}
-                        alt="banner-product-logo"
-                      />
-                      <p>{elem.toCategory.name}</p>
+                  <div className="jslider-banner-wrapper">
+                    <div className="jslider-banner-info">
+                      <div className="jslider-banner-brand">
+                        <img
+                          className="jslider-banner-brand-img"
+                          src={elem.toCategory.logo}
+                          alt="banner-product-logo"
+                        />
+                        <p>{elem.toCategory.name}</p>
+                      </div>
+                      <h1 className="jslider-banner-info-name">{elem.name}</h1>
+                      <button className="e-com-button JSlider-shopnow-button">
+                        <span className="e-com-button-content">Shop Now </span>
+                        <ArrowRight />
+                      </button>
                     </div>
-                    <h1 className="jslider-banner-info-name">{elem.name}</h1>
-                    <button className="e-com-button JSlider-shopnow-button">
-                      <span className="e-com-button-content">Shop Now </span>
-                      <ArrowRight />
-                    </button>
-                  </div>
-                  <div className="jslider-banner-image">
-                    <img
-                      className="jslider-banner-image-img"
-                      src={elem.toCategory.image}
-                      alt="banner-productImage"
-                    />
+                    <div className="jslider-banner-image">
+                      <img
+                        className="jslider-banner-image-img"
+                        src={elem.toCategory.image}
+                        alt="banner-productImage"
+                      />
+                    </div>
                   </div>
                 </div>
               );

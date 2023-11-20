@@ -3,16 +3,16 @@
   grid-auto-rows: 1fr 0fr;
   justify-items: center;
   align-content: center;
-  grid-gap: 8vh;
+  grid-gap: 50px !important;
   background-color: black;
   color: #fff;
-  padding: 10vh 13vh 2vh 13vh;
+  padding: 65px 85px 13px 85px;
 }
 
 .e-commerce-footer-cont {
   width: 100%;
   display: grid;
-  grid-template-columns: 27vh 0.25fr auto auto auto;
+  grid-template-columns: 175px 0.25fr auto auto auto;
   justify-content: space-between;
 }
 
@@ -26,15 +26,15 @@
 
 .e-com-subscription-form {
   border: 1px solid #fff;
-  padding: 0.5vh;
+  padding: 3px;
 }
 
 .email-input {
   width: 100%;
-  padding: 1.4vh;
+  padding: 9px;
 }
 .email-input::placeholder {
-  font-size: 2vh;
+  font-size: 13px;
   display: flex;
   align-items: center;
 }
@@ -49,37 +49,37 @@
 }
 
 .footer-logo {
-  font-size: 3.2vh;
+  font-size: 21px;
 }
 
 .footer-sec-head {
   margin-top: 0;
   font-weight: 500;
-  font-size: 2.8vh;
+  font-size: 18px;
 }
 
 .footer-sec-subhead {
-  font-size: 2.8vh;
+  font-size: 18px;
 }
 
 .footer-links-items {
-  padding: 1vh 0;
-  font-size: 2.2vh;
+  padding: 6px 0;
+  font-size: 14.3px;
 }
 
 .download-links-cont {
   display: grid;
-  grid-gap: 1.5vh;
+  grid-gap: 3px;
 }
 .download-links {
   display: grid;
-  grid-gap: 1.5vh;
+  grid-gap: 10px;
   grid-template-columns: 0fr auto;
 }
 .footer-download-qr-code {
   display: flex;
-  width: 11vh;
-  height: 11vh;
+  width: 71px;
+  height: 71px;
 }
 
 .footer-download-ways-svg,
@@ -90,45 +90,45 @@
 
 .download-links-ways {
   display: grid;
-  grid-gap: 0.5vh;
+  grid-gap: 3px;
 }
 
 .social-links {
   display: grid;
   grid-template-columns: repeat(4, 0fr);
-  grid-gap: 3.5vh;
+  grid-gap: 23px;
 }
 
 .download-social-sec {
   display: grid;
-  grid-gap: 3vh;
+  grid-gap: 18px;
 }
 
 .social-icons {
-  width: 3vh;
-  height: 3vh;
+  width: 18;
+  height: 18px;
 }
 
 .copyright-cont {
   display: grid;
   grid-template-columns: 0fr auto;
-  grid-gap: 1.5vh;
+  grid-gap: 9px;
   align-items: center;
 }
 .copyright-icon-svg {
-  width: 2.3vh;
-  height: 2.3vh;
+  width: 14px;
+  height: 14px;
   display: flex;
 }
 
 .copyright {
-  font-size: 2.2vh;
+  font-size: 14.3px;
   color: #3b3a3a;
 }
 
 .send-email-icon {
-  width: 2.5vh;
-  height: 2.5vh;
+  width: 18px;
+  height: 18px;
 }
 
 @media screen and (max-width: 767px) and (min-height: 657px) {

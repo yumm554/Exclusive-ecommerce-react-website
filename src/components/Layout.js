@@ -10,7 +10,7 @@ const Layout = () => {
   );
   useEffect(() => {
     window.addEventListener('resize', () => {
-      setWindowWidth(window.innerHeight > 657 ? 'auto' : '1349px');
+      setWindowWidth(window.innerHeight > 657 ? 'auto' : `99.5vw`);
     });
   }, []);
   return (

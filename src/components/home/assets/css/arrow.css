@@ -1,18 +1,18 @@
 .arrows {
   display: grid;
-  grid-gap: 1vh;
+  grid-gap: 6px;
   grid-template-columns: repeat(2, auto);
 }
 
 .arrow {
   background-color: #e3e3e3;
-  padding: 1.2vh;
+  padding: 7.5px;
   border-radius: 500px;
 }
 
 .arrow-svg {
-  width: 3.5vh;
-  height: 3.5vh;
+  width: 23px;
+  height: 23px;
   display: flex;
 }
 

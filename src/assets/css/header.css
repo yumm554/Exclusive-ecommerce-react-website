@@ -1,6 +1,6 @@
 .e-commerce-header {
   width: 100%;
-  height: 14vh;
+  height: 91px;
   display: grid;
   border-bottom: 1px solid #cfcfcf;
   align-items: end;
@@ -14,16 +14,16 @@
   grid-gap: 1%;
   grid-template-columns: 0fr 1fr 0fr 0fr 0fr;
   align-items: center;
-  padding: 1vh 13vh;
+  padding: 7px 85px;
   justify-items: center;
 }
 
 .header-logo {
-  font-size: 4vh;
+  font-size: 26px;
 }
 
 .e-com-navbar-list {
-  width: 30vw;
+  grid-gap: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 0;
@@ -35,10 +35,10 @@
 }
 
 .e-com-search {
-  margin-right: 1.8vh;
+  margin-right: 11px;
 }
 .search-input {
-  padding: 2vh 4vh;
+  padding: 13px 26px;
 }
 
 .e-com-search-form {
@@ -46,7 +46,7 @@
 }
 
 .search {
-  padding: 1vh 2vh;
+  padding: 0 13px;
 }
 
 @media screen and (max-width: 767px) and (min-height: 657px) {
