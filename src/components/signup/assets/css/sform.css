@@ -1,36 +1,39 @@
 .sform-cont {
   display: grid;
-  grid-gap: 2vh;
-}
-
-.sform {
-  display: grid;
-  grid-gap: 4vh;
-}
-
-.sform-input {
-  border: 0px solid;
-  padding: 1.2vh 0;
-  border-bottom: 2px solid #e3e3e3;
-  background-color: transparent;
-}
-.sform-input::placeholder {
-  font-size: 2.2vh;
+  grid-gap: 13px;
 }
 
 .sform-button {
-  padding: 2.7vh 4vh;
+  padding: 18px 26px;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 2.3vh;
+  font-size: 15px;
 }
 .ssubmit-button {
   background-color: #db4444;
   color: #fff;
-  margin-top: 2vh;
+  margin-top: 13px;
 }
 
 .google-button {
   border: 2px solid #e3e3e3;
   width: -webkit-fill-available;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .ssubmit-button {
+    font-size: 1.8vw;
+  }
+  .sform-button {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .ssubmit-button {
+    font-size: 2.9vw;
+  }
+  .sform-button {
+    font-size: 2.9vw;
+  }
 }

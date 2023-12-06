@@ -4,6 +4,8 @@ import HLayout from './components/home/components/HLayout';
 import './assets/css/index.css';
 import Signup from './components/signup/components/Signup';
 import Login from './components/login/components/Login';
+import CLayout from './components/contact/CLayout';
+import ALayout from './components/about/ALayout';
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
           <Route path="cart" element={'cart'} />
           <Route path="checkout" element={'checkout'} />
           <Route path="account" element={'account'} />
-          <Route path="about" element={'about'} />
-          <Route path="contact" element={'contact'} />
+          <Route path="about" element={<ALayout />} />
+          <Route path="contact" element={<CLayout />} />
         </Route>
         <Route path="*" element={'404'} />
       </Routes>

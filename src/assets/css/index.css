@@ -3,6 +3,7 @@
 }
 ::-webkit-scrollbar {
   width: 7px;
+  height: 7px;
 }
 ::-webkit-scrollbar-thumb {
   background: #db4444;
@@ -25,12 +26,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+input:active,
+input:focus {
+  border: 0px solid;
+}
 
+.large-heading {
+  font-size: 32.5px;
+}
+
+.e-com-padded-sec {
+  padding: 0 85px;
+  overflow: hidden;
+}
+.home-sections {
+  margin-top: 100px;
+  display: grid;
+  grid-gap: 13px;
+  grid-auto-columns: 100%;
+}
+.e-com-aform {
+  display: grid;
+  grid-gap: 26px;
+}
+.e-com-page-input {
+  border: 0px solid;
+}
+.e-com-page-input::placeholder {
+  font-size: 14px;
+}
+.g-background-ecom-input {
+  padding: 14px 10px;
+  border-bottom: 0px solid;
+  background-color: #e3e3e3;
+}
+.no-background-ecom-input {
+  padding: 8px 0;
+  border-bottom: 2px solid #e3e3e3;
+  background-color: transparent;
+}
 .e-com-button {
   background-color: transparent;
   border: 0px solid;
   font-weight: 600;
   font-size: 15px;
+}
+.e-com-red-button {
+  color: #fff;
+  background-color: #bb4444;
+  padding: 18px 0;
 }
 
 .e-com-logo {
@@ -54,8 +98,17 @@ a {
 }
 
 @media screen and (max-width: 767px) and (min-height: 657px) {
+  .e-com-padded-sec {
+    padding: 0 5vw;
+  }
+  .home-sections {
+    margin-top: 50px;
+  }
+  .e-com-page-input::placeholder {
+    font-size: 2.9vw;
+  }
   .e-com-button {
-    font-size: 2vw;
+    font-size: 2.3vw;
   }
   .e-com-input {
     padding: 2vw;
@@ -63,6 +116,15 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .e-com-padded-sec {
+    padding: 0 3vw;
+  }
+  .home-sections {
+    margin-top: 100px;
+  }
+  .e-com-page-input::placeholder {
+    font-size: 1.8vw;
+  }
   .e-com-button {
     font-size: 1.8vw;
   }

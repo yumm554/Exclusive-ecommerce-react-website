@@ -2,24 +2,24 @@ import '../assets/css/lform.css';
 const LForm = () => {
   return (
     <div className="lform-cont">
-      <form className="lform">
+      <form className="e-com-aform lform">
         <input
           type="email"
           id="lemail"
           name="lemail"
-          className="lform-input"
+          className="e-com-page-input no-background-ecom-input "
           placeholder="Email or Phone Number"
         />
         <input
           type="password"
           id="lpassword"
           name="lpassword"
-          className="lform-input"
+          className="e-com-page-input no-background-ecom-input "
           placeholder="Password"
         />
         <button
           type="submit"
-          className="e-com-button lform-button lsubmit-button"
+          className="e-com-button e-com-red-button lsubmit-button"
         >
           Log In
         </button>

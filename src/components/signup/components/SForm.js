@@ -2,31 +2,31 @@ import '../assets/css/sform.css';
 const SForm = () => {
   return (
     <div className="sform-cont">
-      <form className="sform">
+      <form className="e-com-aform sform">
         <input
           type="name"
           id="sname"
           name="sname"
-          className="sform-input"
+          className="e-com-page-input no-background-ecom-input "
           placeholder="Name"
         />
         <input
           type="email"
           id="semail"
           name="semail"
-          className="sform-input"
+          className="e-com-page-input no-background-ecom-input "
           placeholder="Email or Phone Number"
         />
         <input
           type="password"
           id="spassword"
           name="spassword"
-          className="sform-input"
+          className="e-com-page-input no-background-ecom-input "
           placeholder="Password"
         />
         <button
           type="submit"
-          className="e-com-button sform-button ssubmit-button"
+          className="e-com-button e-com-red-button ssubmit-button"
         >
           Create Account
         </button>

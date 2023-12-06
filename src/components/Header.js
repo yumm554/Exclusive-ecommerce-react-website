@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="e-commerce-header">
       <div className="e-commerce-header-main">
-        <div className="e-com-logo header-logo">Exclusive</div>
+        <div className="e-com-logo header-logo">Yexclusive</div>
         <div className="e-com-navbar">
           <ul className="e-com-navbar-list">
             <Link className="hnavigate" to="/">

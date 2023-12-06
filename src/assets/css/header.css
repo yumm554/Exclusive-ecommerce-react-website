@@ -118,7 +118,7 @@
     padding: 5px 5vw;
   }
   .e-com-logo.header-logo {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .e-com-input.search-input,
   .e-com-button.search {
@@ -128,17 +128,17 @@
     display: none;
   }
   .wishlist svg {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
   }
 
   .cart svg {
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
   }
   .hamburger svg {
-    width: 7vw;
-    height: 7vw;
+    width: 6vw;
+    height: 6vw;
   }
   .mobile-menu-dropdown {
     position: absolute;

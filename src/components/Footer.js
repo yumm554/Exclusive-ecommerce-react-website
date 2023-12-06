@@ -18,7 +18,7 @@ const Footer = () => {
     <div className="home-sections e-commerce-footer">
       <div className="e-commerce-footer-cont">
         <div className="footer-sec newsletter-sec">
-          <div className="e-com-logo footer-logo">Exclusive</div>
+          <div className="e-com-logo footer-logo">Yexclusive</div>
           <div className="subscription-form-cont">
             <h2 className="footer-sec-subhead">Subscribe</h2>
             <div className="subscription-form-wrapper">

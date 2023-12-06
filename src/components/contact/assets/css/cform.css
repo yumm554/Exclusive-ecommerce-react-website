@@ -1,0 +1,12 @@
+#cemail {
+  grid-column: 2;
+}
+#cphone {
+  grid-column: 3;
+}
+#cmessage {
+  grid-column: 1 / span 3;
+}
+.csubmit-button {
+  grid-column: 3;
+}

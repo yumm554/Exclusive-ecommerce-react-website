@@ -1,35 +1,18 @@
 .lform-cont {
   display: grid;
-  grid-gap: 2vh;
+  grid-gap: 13px;
   position: relative;
 }
 
-.lform {
-  display: grid;
-  grid-gap: 4vh;
-}
-
-.lform-input {
-  border: 0px solid;
-  padding: 1.2vh 0;
-  border-bottom: 2px solid #e3e3e3;
-  background-color: transparent;
-}
-.lform-input::placeholder {
-  font-size: 2.2vh;
-}
-
 .lform-button {
-  padding: 2.7vh 4vh;
+  padding: 18px 26px;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 2.3vh;
+  font-size: 15px;
 }
 .lsubmit-button {
-  background-color: #db4444;
-  color: #fff;
   width: 35%;
-  margin-top: 2vh;
+  margin-top: 13px;
 }
 
 .forgot-password-cont {
@@ -42,7 +25,31 @@
 
 .forgot-password-button {
   color: #bb4444;
-  padding: 2.7vh 0;
-  font-size: 2.3vh;
+  padding: 18px 0;
+  font-size: 15px;
   font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .ssubmit-button {
+    font-size: 1.8vw;
+  }
+  .lform-button {
+    font-size: 1.8vw;
+  }
+  .forgot-password-button {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .ssubmit-button {
+    font-size: 2.9vw;
+  }
+  .lform-button {
+    font-size: 2.9vw;
+  }
+  .forgot-password-button {
+    font-size: 2.9vw;
+  }
 }

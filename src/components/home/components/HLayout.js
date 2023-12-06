@@ -1,5 +1,3 @@
-import AProducts from './AProducts';
-import BSProducts from './BSProducts';
 import Categories from './Categories';
 import FProduct from './FProduct';
 import FProducts from './FProducts';
@@ -10,7 +8,7 @@ import('../assets/css/home.css');
 
 const HLayout = () => {
   return (
-    <div className="e-com-home">
+    <div className="e-com-padded-sec ">
       <Jumbotron />
       <SProducts
         redSec="Today's"

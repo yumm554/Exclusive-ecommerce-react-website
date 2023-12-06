@@ -6,11 +6,11 @@ import { useEffect, useState } from 'react';
 
 const Layout = () => {
   const [windowWidth, setWindowWidth] = useState(
-    window.innerHeight > 657 ? window.innerWidth : 1349
+    window.innerHeight > 657 ? `99.3vw` : '1359px'
   );
   useEffect(() => {
     window.addEventListener('resize', () => {
-      setWindowWidth(window.innerHeight > 657 ? 'auto' : `99.5vw`);
+      setWindowWidth(window.innerHeight > 657 ? `99.3vw` : '1359px');
     });
   }, []);
   return (

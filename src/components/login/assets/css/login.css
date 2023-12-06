@@ -1,8 +1,8 @@
 .login-cont {
   display: grid;
   grid-template-columns: 60% 40%;
-  height: 100vh;
-  margin: 8vh 0 2vh 0;
+  height: 650px;
+  margin: 52px 0 13px 0;
 }
 
 .login-image {
@@ -12,22 +12,65 @@
 .login {
   display: grid;
   align-content: center;
-  grid-gap: 6vh;
-  padding: 0 15vh;
+  grid-gap: 39px;
+  padding: 0 98px;
 }
 
 .login-mains {
   display: grid;
-  grid-gap: 1.5vh;
+  grid-gap: 9px;
 }
 
 .login-main-para {
   margin: 0;
-  font-size: 2.3vh;
+  font-size: 15px;
   font-weight: 600;
 }
 .login-main-heading {
   margin: 0;
-  font-size: 5vh;
+  font-size: 32.5px;
   font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (min-height: 657px) {
+  .login-cont {
+    height: max-content;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    margin: 0;
+  }
+  .login-image {
+    height: 30vh;
+  }
+  .login-main-heading {
+    font-size: 4vw;
+  }
+  .login-main-para {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-height: 657px) {
+  .login-cont {
+    height: max-content;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    margin: 0;
+  }
+  .login-image {
+    height: 30vh;
+  }
+  .login {
+    padding: 0 5vw;
+  }
+  .login-main-heading {
+    font-size: 5vw;
+  }
+  .login-main-para {
+    font-size: 2.8vw;
+  }
+  .medium-para.already-account-para,
+  .already-account-button {
+    font-size: 2.9vw;
+  }
 }
